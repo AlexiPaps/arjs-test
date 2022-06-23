@@ -12,24 +12,14 @@
             <a-sphere position="5 0 0" color="mediumseagreen"></a-sphere>
         </a-entity>
 
-
-        <!-- handle marker with your own pattern -->
-        <a-marker type='pattern' url='path/to/pattern-marker.patt'>
-            <a-box position='0 0.5 0' material='color: red;'></a-box>
-        </a-marker>
-
-        <!-- handle marker with hiro preset -->
-        <a-marker preset='hiro'>
-            <a-box position='0 0.5 0' material='color: green;'></a-box>
-        </a-marker>
-
-        <!-- handle barcode marker -->
-        <a-marker type='barcode' value='5'>
-            <a-box position='0 0.5 0' material='color: blue;'></a-box>
-        </a-marker>
-
         <!-- add a simple camera -->
-        <a-entity camera></a-entity>
+        <a-entity camera>
+
+            <a-box position="-1 1.6 -5"
+                animation="property: position; to: 1 8 -10; dur: 2000; easing: linear; loop: true" color="tomato">
+            </a-box>
+        </a-entity>
+
     </a-scene>
 </body>
 
