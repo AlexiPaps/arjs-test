@@ -1,150 +1,89 @@
 {
   "accessors": [
     {
-      "bufferView": 2,
+      "bufferView": 1,
       "componentType": 5126,
-      "count": 2808,
+      "count": 108,
       "max": [
-        228.52749633789063,
-        -12.471799850463867,
-        39.09450149536133
+        116.0,
+        -91.94300079345703,
+        91.86499786376953
       ],
       "min": [
-        189.47239685058594,
-        -14.24370002746582,
-        -39.09450149536133
+        -85.0,
+        -126.0,
+        -105.0
       ],
       "type": "VEC3"
-    },
-    {
-      "bufferView": 2,
-      "byteOffset": 33696,
-      "componentType": 5126,
-      "count": 2808,
-      "max": [
-        0.7173003554344177,
-        0.7071068286895752,
-        0.7173003554344177
-      ],
-      "min": [
-        -0.7173003554344177,
-        -1.0,
-        -0.7173003554344177
-      ],
-      "type": "VEC3"
-    },
-    {
-      "bufferView": 3,
-      "componentType": 5126,
-      "count": 2808,
-      "max": [
-        0.7071068286895752,
-        0.8137328028678894,
-        0.9548494815826416,
-        1.0
-      ],
-      "min": [
-        -1.0,
-        -0.8132858276367188,
-        -1.0,
-        -1.0
-      ],
-      "type": "VEC4"
     },
     {
       "bufferView": 1,
+      "byteOffset": 1296,
       "componentType": 5126,
-      "count": 2808,
+      "count": 108,
       "max": [
-        0.9908000230789185,
-        0.9994999766349792
+        0.8044190406799316,
+        1.0,
+        0.5940624475479126
       ],
       "min": [
-        0.0005000000237487257,
-        0.0005000000237487257
+        -0.8760213851928711,
+        -1.0,
+        -0.6038894057273865
       ],
-      "type": "VEC2"
+      "type": "VEC3"
     },
     {
       "bufferView": 0,
       "componentType": 5125,
-      "count": 11592,
+      "count": 180,
       "type": "SCALAR"
     }
   ],
   "asset": {
     "extras": {
-      "author": "AERO3D (https://sketchfab.com/aero3d.ua)",
+      "author": "ironandsilk (https://sketchfab.com/ironandsilk)",
       "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
-      "source": "https://sketchfab.com/3d-models/solar-panel-8f094196d83e43fb9865df4c7501a930",
-      "title": "Solar Panel"
+      "source": "https://sketchfab.com/3d-models/red-arrow-chevrons-wayfinding-aa360fe27a854420955a8920d4c45198",
+      "title": "Red Arrow Chevrons Wayfinding"
     },
-    "generator": "Sketchfab-12.67.0",
+    "generator": "Sketchfab-12.68.0",
     "version": "2.0"
   },
   "bufferViews": [
     {
       "buffer": 0,
-      "byteLength": 46368,
+      "byteLength": 720,
       "name": "floatBufferViews",
       "target": 34963
     },
     {
       "buffer": 0,
-      "byteLength": 22464,
-      "byteOffset": 46368,
-      "byteStride": 8,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 67392,
-      "byteOffset": 68832,
+      "byteLength": 2592,
+      "byteOffset": 720,
       "byteStride": 12,
-      "name": "floatBufferViews",
-      "target": 34962
-    },
-    {
-      "buffer": 0,
-      "byteLength": 44928,
-      "byteOffset": 136224,
-      "byteStride": 16,
       "name": "floatBufferViews",
       "target": 34962
     }
   ],
   "buffers": [
     {
-      "byteLength": 181152,
+      "byteLength": 3312,
       "uri": "scene.bin"
-    }
-  ],
-  "images": [
-    {
-      "uri": "textures/wire_154215229_baseColor.png"
-    },
-    {
-      "uri": "textures/wire_154215229_metallicRoughness.png"
-    },
-    {
-      "uri": "textures/wire_154215229_normal.png"
     }
   ],
   "materials": [
     {
       "doubleSided": true,
-      "name": "wire_154215229",
-      "normalTexture": {
-        "index": 2
-      },
+      "name": "color_15277357",
       "pbrMetallicRoughness": {
-        "baseColorTexture": {
-          "index": 0
-        },
-        "metallicRoughnessTexture": {
-          "index": 1
-        }
+        "baseColorFactor": [
+          0.913725,
+          0.113725,
+          0.176471,
+          1.0
+        ],
+        "metallicFactor": 0.0
       }
     }
   ],
@@ -155,11 +94,9 @@
         {
           "attributes": {
             "NORMAL": 1,
-            "POSITION": 0,
-            "TANGENT": 2,
-            "TEXCOORD_0": 3
+            "POSITION": 0
           },
-          "indices": 4,
+          "indices": 2,
           "material": 0,
           "mode": 4
         }
@@ -177,16 +114,16 @@
         0.0,
         0.0,
         0.0,
-        -0.7424122095108031,
-        -0.669943392276764,
+        2.220446049250313e-16,
+        -1.0,
         0.0,
         0.0,
-        0.669943392276764,
-        -0.7424122095108031,
+        1.0,
+        2.220446049250313e-16,
         0.0,
         0.0,
-        -9.916948318481447,
-        4.408833503723143,
+        0.0,
+        0.0,
         1.0
       ],
       "name": "Sketchfab_model"
@@ -195,19 +132,11 @@
       "children": [
         2
       ],
-      "name": "35de24a99b4b49e1aa0f36951a49d9b3.obj.cleaner.materialmerger.gles"
+      "name": "tinker.obj.cleaner.materialmerger.gles"
     },
     {
       "mesh": 0,
       "name": "Object_2"
-    }
-  ],
-  "samplers": [
-    {
-      "magFilter": 9729,
-      "minFilter": 9987,
-      "wrapS": 10497,
-      "wrapT": 10497
     }
   ],
   "scene": 0,
@@ -217,20 +146,6 @@
       "nodes": [
         0
       ]
-    }
-  ],
-  "textures": [
-    {
-      "sampler": 0,
-      "source": 0
-    },
-    {
-      "sampler": 0,
-      "source": 1
-    },
-    {
-      "sampler": 0,
-      "source": 2
     }
   ]
 }
